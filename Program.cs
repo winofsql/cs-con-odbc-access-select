@@ -18,9 +18,9 @@ namespace cs_con_odbc_access_select
             // *************************************
             myConAccess = new OdbcConnection();
             myConAccess.ConnectionString =
-                // "Provider=MSDASQL;DSN=H-MDB";
+                "Provider=MSDASQL;DSN=H-MDB";
                 // $"Provider=MSDASQL;Driver={{Microsoft Access Driver (*.mdb, *.accdb)}};dbq={dbpath};";
-                $"Provider=MSDASQL;DSN=H-MDB;DATABASE={dbpath}";
+                // $"Provider=MSDASQL;DSN=H-MDB;DATABASE={dbpath}";
 
             // 接続を開く
             try
